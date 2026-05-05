@@ -742,6 +742,50 @@ ul { list-style: none; }
   color: var(--clr-muted);
 }
 
+/* ---------- MILJÖ ---------- */
+.miljo { background: var(--clr-surface); }
+
+.miljo__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+
+.miljo__img-wrap {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.miljo__img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+.miljo__subtitle {
+  display: block;
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+  font-weight: 600;
+  color: var(--clr-accent);
+  letter-spacing: -0.01em;
+  margin-top: 6px;
+}
+
+.miljo__text {
+  color: var(--clr-muted);
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.miljo__content .btn { margin-top: 8px; }
+
+@media (max-width: 768px) {
+  .miljo__inner { grid-template-columns: 1fr; gap: 36px; }
+}
+
 /* ---------- SUPPLIERS ---------- */
 .suppliers {
   background: var(--clr-surface);
