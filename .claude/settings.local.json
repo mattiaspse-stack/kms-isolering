@@ -26,7 +26,10 @@
       "PowerShell(winget install GitHub.cli --accept-package-agreements --accept-source-agreements)",
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh auth login --web -h github.com)",
       "PowerShell(Get-Content \"C:\\\\Users\\\\MATTIA~1.PER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mattias-persson-OneDrive---Atracco-Group-AB-Visual-Studio-Code-kms\\\\cd0b7640-662c-4d16-b2e3-d99f3c0318ca\\\\tasks\\\\bwsmba75e.output\" -Wait -Tail 20)",
-      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh auth status)"
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh auth status)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; gh api repos/mattiaspse-stack/kms-isolering/pages --method POST -f source='{\"branch\":\"master\",\"path\":\"/\"}')",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh api repos/mattiaspse-stack/kms-isolering/pages --method POST --field source[branch]=master --field source[path]=/)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Diverse justeringar – text, leverantörsloggor, år dynamiskt\"; git push)"
     ]
   }
 }

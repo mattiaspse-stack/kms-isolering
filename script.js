@@ -1,3 +1,5 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+
 // ── Header scroll effect ──
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
