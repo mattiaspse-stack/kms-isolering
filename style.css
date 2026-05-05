@@ -132,6 +132,16 @@ ul { list-style: none; }
   transform: translateY(-1px);
 }
 
+.nav__instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-muted);
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+.nav__instagram:hover { color: var(--clr-accent); }
+
 /* ---------- HEADER ---------- */
 .header {
   position: fixed;
@@ -1093,6 +1103,7 @@ ul { list-style: none; }
   }
   .nav__link { padding: 13px 16px; font-size: 1rem; }
   .btn--nav { margin-top: 8px; padding: 13px 16px; text-align: center; justify-content: center; }
+  .nav__instagram { padding: 13px 16px; color: var(--clr-muted); }
 
   /* Logo – smaller on mobile to fit header */
   .logo__img { height: 48px; }
