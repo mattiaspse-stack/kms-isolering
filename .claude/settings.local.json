@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.kmsisolering.se)",
+      "WebFetch(domain:www.bevego.se)",
+      "WebFetch(domain:www.ahlsell.se)",
+      "WebFetch(domain:www.lindab.com)",
+      "WebFetch(domain:www.isopartner.se)",
+      "WebFetch(domain:bevego.se)",
+      "WebFetch(domain:isopartner.se)",
+      "WebFetch(domain:www.isopartner.com)",
+      "WebFetch(domain:ahlsell.se)",
+      "WebFetch(domain:isopartner.com)",
+      "WebFetch(domain:lindab.com)",
+      "Bash(ls \"C:\\\\Users\\\\mattias.persson\\\\.claude\\\\projects\\\\c--Users-mattias-persson-OneDrive---Atracco-Group-AB-Visual-Studio-Code-kms\\\\\" 2>/dev/null || echo \"not found\")",
+      "Read(//c/Users/mattias.persson/.claude/projects/c--Users-mattias-persson-OneDrive---Atracco-Group-AB-Visual-Studio-Code-kms\" 2>/dev/**)",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\mattias.persson\\\\.claude\\\\projects\\\\\" -Recurse -Include \"*.jpg\",\"*.jpeg\",\"*.png\",\"*.webp\" | Sort-Object LastWriteTime -Descending | Select-Object -First 20 FullName, LastWriteTime)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\mattias.persson\\\\.claude\\\\\" -Recurse -ErrorAction SilentlyContinue | Where-Object { $_.Extension -match \"\\\\.\\(jpg|jpeg|png|webp\\)$\" } | Sort-Object LastWriteTime -Descending | Select-Object -First 10 FullName)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\\\\images\" -Force)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Bilder\\\\kms\" -ErrorAction SilentlyContinue | Select-Object Name, @{N='MB';E={[math]::Round\\($_.Length/1MB,2\\)}}, LastWriteTime | Format-Table -AutoSize)",
+      "PowerShell(winget install ngrok.ngrok 2>&1)",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\MATTIA~1.PER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mattias-persson-OneDrive---Atracco-Group-AB-Visual-Studio-Code-kms\\\\cd0b7640-662c-4d16-b2e3-d99f3c0318ca\\\\tasks\\\\bzxq76cwa.output\" -Wait -Tail 10)",
+      "PowerShell(gh auth status 2>&1)",
+      "PowerShell(winget install GitHub.cli --accept-package-agreements --accept-source-agreements 2>&1)",
+      "PowerShell(Tail -5)",
+      "PowerShell(winget install GitHub.cli --accept-package-agreements --accept-source-agreements)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh auth login --web -h github.com)",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\MATTIA~1.PER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mattias-persson-OneDrive---Atracco-Group-AB-Visual-Studio-Code-kms\\\\cd0b7640-662c-4d16-b2e3-d99f3c0318ca\\\\tasks\\\\bwsmba75e.output\" -Wait -Tail 20)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh auth status)"
+    ]
+  }
+}

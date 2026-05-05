@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KMS Plåt & Isolering</title>
+  <meta name="description" content="KMS Plåt & Isolering – Professionell isolering, brandtätning, ventilation och plåtarbeten i Helsingborg och Öresundsregionen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <img src="images/kms-logo.png" alt="KMS Plåt & Isolering" class="logo__img" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#tjanster" class="nav__link">Tjänster</a>
+        <a href="#om-oss" class="nav__link">Om oss</a>
+        <a href="#leverantorer" class="nav__link">Leverantörer</a>
+        <a href="#kontakt" class="nav__link">Kontakt</a>
+        <a href="#kontakt" class="btn btn--nav">Kontakta oss</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Öppna meny" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__split">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Professionell isolering sedan dag ett</p>
+        <h1 class="hero__title">Experter på isolering<br />&amp; plåtarbeten</h1>
+        <p class="hero__desc">Vi utför brandtätning, ventilationsisolering, rörisolering och plåtbeklädnad för industri, fastigheter och offentlig sektor i Helsingborg och Öresundsregionen.</p>
+        <div class="hero__actions">
+          <a href="#kontakt" class="btn btn--primary">Begär offert</a>
+          <a href="#tjanster" class="btn btn--ghost">Våra tjänster</a>
+        </div>
+      </div>
+      <div class="hero__img-col">
+        <div class="hero__img-stack">
+          <img src="images/kms-3.jpg" alt="KMS isoleringsarbete" class="hero__img hero__img--main" />
+          <img src="images/kms-4.jpg" alt="KMS industrirör" class="hero__img hero__img--small" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOTO-STRIP -->
+  <section class="photo-strip">
+    <div class="photo-strip__track">
+      <div class="photo-strip__item"><img src="images/kms-1.jpg" alt="KMS rörarbete" /></div>
+      <div class="photo-strip__item"><img src="images/kms-2.jpg" alt="KMS rörisolering" /></div>
+      <div class="photo-strip__item"><img src="images/kms-3.jpg" alt="KMS ventilation" /></div>
+      <div class="photo-strip__item"><img src="images/kms-4.jpg" alt="KMS industrirör" /></div>
+      <div class="photo-strip__item"><img src="images/kms-5.jpg" alt="KMS takrör" /></div>
+    </div>
+  </section>
+
+  <!-- TJÄNSTER -->
+  <section class="section services" id="tjanster">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Vad vi gör</p>
+        <h2 class="section__title">Våra tjänster</h2>
+        <p class="section__desc">Vi erbjuder ett brett utbud av isolerings- och plåttjänster med hög kvalitet och precision.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card" data-index="1">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4L6 14v20l18 10 18-10V14L24 4z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M24 4v30M6 14l18 10 18-10" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Brand- &amp; Ljudtätning</h3>
+          <p class="service-card__desc">Vi utför brandtätning som förhindrar spridning av flamma och rök vid brand – vi begränsar spridningen till ett mindre utrymme och skyddar liv och egendom.</p>
+          <ul class="service-card__list">
+            <li>Tätning runt genomföringar</li>
+            <li>Brandklassade väggar &amp; bjälklag</li>
+            <li>Ljudisolering av genomföringar</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-index="2">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="18" width="32" height="12" rx="6" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 18V12M24 18V8M32 18V12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M16 30v6M24 30v8M32 30v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Ventilationsisolering</h3>
+          <p class="service-card__desc">Vi isolerar ventilationskanaler mot värmeförlust, kondensation, brand och ljud – för ett effektivt och hälsosamt inomhusklimat.</p>
+          <ul class="service-card__list">
+            <li>Värmeisolering – minskar energiförlust</li>
+            <li>Kondensationsisolering</li>
+            <li>Brandisolering med brandfilt</li>
+            <li>Ljudisolering av fläktar &amp; spjäll</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-index="3">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 36c0-8 4-14 12-18 8 4 12 10 12 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24 18V8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M18 24c0 0 3-2 6-2s6 2 6 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M8 36h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Polyuretanisolering</h3>
+          <p class="service-card__desc">Flexibelt, vattentätt och miljövänligt isoleringsmaterial – helt fritt från CFC, tungmetaller och AZO-färger. Klarar temperaturer från −40 °C till +100 °C.</p>
+          <ul class="service-card__list">
+            <li>Hög bärförmåga</li>
+            <li>Vatten- &amp; fuktresistent</li>
+            <li>Miljöcertifierat material</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-index="4">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 8h16v32H16z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M10 14h6M10 24h6M10 34h6M32 14h6M32 24h6M32 34h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M22 20v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Rörisolering</h3>
+          <p class="service-card__desc">Korrekt rörisolering minskar energiförluster med upp till 85 % jämfört med oisolerade rör. Vi utför även rörmärkning för tydlig identifiering.</p>
+          <ul class="service-card__list">
+            <li>Upp till 85% minskad energiförlust</li>
+            <li>Kyla-, värme- &amp; processrör</li>
+            <li>Rörmärkning ingår vid behov</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-index="5">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="14" width="36" height="20" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M6 22h36M6 30h36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 14V10M34 14V10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 34v4M34 34v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Plåtbeklädnad</h3>
+          <p class="service-card__desc">Skyddande plåthölje för utomhusisolerade rör och ventilationskanaler – motståndskraftigt mot väder och vind för lång livslängd och snygg finish.</p>
+          <ul class="service-card__list">
+            <li>Utomhus &amp; inomhus</li>
+            <li>Aluminium &amp; galvat plåt</li>
+            <li>Skräddarsytt efter behov</li>
+          </ul>
+        </div>
+
+        <div class="service-card service-card--highlight" data-index="6">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 38V20l16-12 16 12v18" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <rect x="18" y="28" width="12" height="10" rx="1" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 28v-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="20" r="3" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Industriservice</h3>
+          <p class="service-card__desc">Sedan våren 2025 utför vi underhållsarbeten åt Öresundskraft på tre värmeverk – Västhamnsverket, Åkerlundsverket och Filbornaverket.</p>
+          <ul class="service-card__list">
+            <li>Förebyggande underhåll</li>
+            <li>Akutinsatser</li>
+            <li>Storskaliga industriuppdrag</li>
+          </ul>
+          <span class="service-card__badge">Nytt uppdrag 2025</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OM OSS -->
+  <section class="section about" id="om-oss">
+    <div class="container about__inner">
+      <div class="about__visual">
+        <div class="about__img-wrap">
+          <img src="images/kms-5.jpg" alt="KMS Plåt & Isolering arbete" class="about__img" />
+        </div>
+        <a href="#kontakt" class="btn btn--primary about__img-btn">Ta kontakt</a>
+      </div>
+      <div class="about__content">
+        <p class="section__eyebrow">Om oss</p>
+        <h2 class="section__title">Varför välja KMS?</h2>
+        <p class="about__text">KMS Plåt &amp; Isolering är ett certifierat företag med F-skatt och ansvarsförsäkring. Vi kombinerar gedigen yrkesskicklighet med moderna material och metoder för att leverera hållbara och kostnadseffektiva lösningar.</p>
+        <p class="about__text">Vi är verksamma i Helsingborg och Öresundsregionen och tar uppdrag inom industri, fastigheter och offentlig sektor. Med oss får du ett engagerat team som sätter kvalitet och säkerhet i centrum – varje gång.</p>
+        <div class="about__points">
+          <div class="about__point">
+            <div class="about__point-icon">✓</div>
+            <div>
+              <strong>Certifierat &amp; försäkrat</strong>
+              <p>F-skatt och fullständig ansvarsförsäkring</p>
+            </div>
+          </div>
+          <div class="about__point">
+            <div class="about__point-icon">✓</div>
+            <div>
+              <strong>Miljövänliga material</strong>
+              <p>Fria från CFC, tungmetaller och AZO-färger</p>
+            </div>
+          </div>
+          <div class="about__point">
+            <div class="about__point-icon">✓</div>
+            <div>
+              <strong>Helhetslösningar</strong>
+              <p>Från brandtätning till industriunderhåll</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEVERANTÖRER -->
+  <section class="section suppliers" id="leverantorer">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Våra partners</p>
+        <h2 class="section__title">Leverantörer vi litar på</h2>
+      </div>
+      <div class="suppliers__grid">
+
+        <!-- Bevego -->
+        <a href="https://www.bevego.se" target="_blank" rel="noopener" class="supplier-item">
+          <img class="supplier-item__svg" src="images/bevego-logo.svg" alt="Bevego" />
+        </a>
+
+        <!-- Ahlsell – inline SVG hämtad från ahlsell.se -->
+        <a href="https://www.ahlsell.se" target="_blank" rel="noopener" class="supplier-item">
+          <svg class="supplier-item__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 79.618" aria-label="Ahlsell">
+            <path d="M151.941,0h15.527L150.845,78.074H135.318Z" transform="translate(132.532)" fill="#0073b6"/><path d="M141.223,0H156.75L140.129,78.072H124.6Z" transform="translate(122.039)" fill="#0073b6"/><path d="M112.762,33.845c2.3-6.344,6.669-12.029,15.418-12.029,9.074,0,10.5,6.235,10.5,12.029Zm40.022,9.842a45.813,45.813,0,0,0,.875-8.858c0-16.4-10.606-24.713-26.352-24.713-19.246,0-31.164,16.839-31.164,34.883,0,16.071,10.059,24.711,25.15,24.711,16.293,0,24.384-6.778,29.3-19.462H135.07c-2.3,3.606-5.358,7.761-11.591,7.761-8.42,0-12.468-4.481-12.468-11.045,0-.873,0-1.857.109-3.278Z" transform="translate(94.164 9.907)" fill="#0073b6"/><path d="M107.862,28.158c-.109-4.808-2.842-7.652-8.749-7.652-5.467,0-9.509,1.53-9.509,5.576,0,2.516,1.855,4.046,7.1,5.687l7.767,2.514c8.308,2.732,14.869,6.669,14.869,16.182,0,14-13.888,19.246-26.9,19.246-11.043,0-24.052-4.375-24.052-17.6v-2.3H82.823v1.855c0,5.143,5.794,7.656,11.154,7.656,4.7,0,9.838-1.641,9.838-6.779,0-3.937-2.183-5.141-5.574-6.233l-11.92-3.824c-7.763-2.518-12.247-5.58-12.247-14.434,0-13.343,14.105-17.935,25.04-17.935,12.356,0,23.4,3.5,23.185,18.042Z" transform="translate(66.983 9.907)" fill="#0073b6"/><path d="M73.456,0H88.985L72.367,78.072H56.837Z" transform="translate(55.667)" fill="#0073b6"/><path d="M43.768,0H59.294L53.5,28.1h.218c2.407-3.278,8.529-8.092,18.7-8.092,10.717,0,16.51,5.356,16.51,15.2,0,2.3-1.2,7.763-1.639,9.735l-7,33.13H64.761l6.888-33.13a38.554,38.554,0,0,0,.986-6.89c0-3.391-3.828-5.794-7.435-5.794-9.406,0-14.216,7.87-15.855,15.746L43,78.072H27.477Z" transform="translate(26.911)" fill="#0073b6"/><path d="M38.6,46.538c-1.75,6.118-4.921,12.791-14.545,12.791-4.481,0-8.527-2.074-8.527-6.342,0-7.106,5.576-8.527,11.483-9.185,4.481-.327,9.183-.435,13.118-2.734Zm-16.73-17.73c.984-5.687,5.9-8.312,11.483-8.312,3.935,0,9.838,1.314,9.838,6.888,0,7.215-6.886,6.451-21.538,8.2C8.2,37.229,0,44.007,0,54.83,0,62.708,6.011,69.7,18.365,69.7c6.342,0,13.015-2.3,17.28-7.108v5.576H51.172a11.422,11.422,0,0,1-.548-3.28,34.987,34.987,0,0,1,.766-7.652l5.03-22.745a58.91,58.91,0,0,0,1.2-9.513c.22-12.684-13.45-14.871-23.509-14.871-12.795,0-24.824,4.481-26.789,18.7Z" transform="translate(0 9.901)" fill="#0073b6"/>
+          </svg>
+        </a>
+
+        <!-- Lindab -->
+        <a href="https://www.lindab.com/se" target="_blank" rel="noopener" class="supplier-item">
+          <img class="supplier-item__svg" src="images/lindab-logo.svg" alt="Lindab" />
+        </a>
+
+        <!-- Isopartner – inline SVG hämtad från isopartner.com -->
+        <a href="https://www.isopartner.se" target="_blank" rel="noopener" class="supplier-item">
+          <svg class="supplier-item__svg" viewBox="0 0 162 19" xmlns="http://www.w3.org/2000/svg" aria-label="Isopartner">
+            <path d="M151.683 8.22V4.54h1.842c.792 0 1.367.144 1.73.437.363.292.545.757.545 1.402 0 .646-.182 1.115-.545 1.405-.363.29-.938.437-1.73.437h-1.842zM162 17.76l-3.584-6.633c1.695-1.097 2.542-2.76 2.542-4.99 0-1.872-.593-3.284-1.778-4.238-1.186-.953-2.934-1.43-5.244-1.427h-7.409V17.76h5.156v-5.55h1.937l2.775 5.55H162zm-18.184 0l.41-4.237h-7.942v-2.371h6.974V6.914h-6.974V4.709h7.458V.472h-12.864V17.76h12.938zm-16.081 0V.473h-5.133v8.743L117.08.472h-4.722V17.76h5.136V8.962l5.57 8.789 4.67.01zm-22.495 0V5.195h4.817V.472H94.923v4.722h4.82V17.76h5.497zM83.872 8.22V4.54h1.839c.792 0 1.37.144 1.733.437.363.292.544.757.544 1.402 0 .646-.181 1.115-.544 1.405-.364.29-.941.437-1.733.437h-1.84zm10.314 9.54l-3.582-6.633c1.695-1.097 2.543-2.76 2.543-4.99 0-1.872-.594-3.284-1.78-4.238C90.178.946 88.436.47 86.141.472h-7.419V17.76h5.149v-5.55h1.937l2.76 5.55h5.617zm-25.134-7.062h-3.138l1.574-5.739 1.564 5.739zm7.482 7.063L70.974.47h-6.777l-5.618 17.29h5.423l.757-2.775h5.471l.777 2.775h5.527zm-25.78-9.444V4.735h1.479c.756 0 1.301.137 1.634.41.333.275.501.735.505 1.38 0 .646-.169 1.106-.505 1.38-.336.275-.88.412-1.634.412h-1.479zm0 9.444v-5.182h1.453c4.73 0 7.096-2.026 7.096-6.079 0-2.018-.588-3.527-1.766-4.527C56.36.972 54.576.467 52.185.459h-6.71v17.289l5.28.013z" fill="#069ad8" fill-rule="nonzero"/><path d="M43.215 9.146v-.05C43.215 4.051 39.232 0 33.856 0a9.549 9.549 0 00-5.983 2.036l3.28 3.279a4.215 4.215 0 012.66-.908c2.664 0 4.48 2.21 4.48 4.747v.053c0 2.538-1.765 4.697-4.429 4.697a4.268 4.268 0 01-2.689-.931l-3.327 3.304a9.535 9.535 0 005.958 2.018c5.375 0 9.409-4.096 9.409-9.149zm-26.92 2.319c.43.058.842.217 1.2.461a.987.987 0 01.351.8c0 .854-.654 1.281-1.962 1.281-.807 0-1.425-.161-1.852-.484a2.157 2.157 0 01-.787-1.514H7.82c.146 2.05.87 3.592 2.169 4.627 1.3 1.034 3.15 1.55 5.55 1.548 2.483 0 4.384-.504 5.703-1.513 1.318-1.009 1.975-2.466 1.972-4.371 0-1.469-.452-2.619-1.357-3.451-.905-.833-2.381-1.466-4.43-1.9l-2.325-.484a3.216 3.216 0 01-1.21-.436.828.828 0 01-.364-.702.916.916 0 01.472-.812c.43-.22.91-.32 1.392-.29.646 0 1.128.121 1.44.363.313.243.545.671.692 1.284l5.352-.484c-.168-1.712-.878-3.032-2.131-3.96C19.492.499 17.764.035 15.56.035c-2.34 0-4.157.497-5.448 1.491-1.292.994-1.938 2.386-1.938 4.177 0 1.435.464 2.58 1.393 3.438.928.858 2.385 1.48 4.371 1.864l2.356.46zM5.496.472H0V17.76h5.496V.47z" fill="#072d51" fill-rule="nonzero"/><path d="M31.152 5.307l-3.279-3.279a9.018 9.018 0 00-3.423 7.11v.051a8.963 8.963 0 003.398 7.088l3.32-3.32a4.874 4.874 0 01-1.766-3.818v-.05a4.795 4.795 0 011.743-3.784" fill="#069ad8" fill-rule="nonzero"/><path d="M34.987 9.149l-3.835-3.842a4.795 4.795 0 00-1.743 3.784v.05a4.874 4.874 0 001.766 3.82l3.812-3.812z" fill="#afdef8" fill-rule="nonzero"/>
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section contact" id="kontakt">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <p class="section__eyebrow section__eyebrow--light">Kom i kontakt</p>
+        <h2 class="section__title">Kontakta oss</h2>
+        <p class="section__desc">Behöver du en offert eller har du frågor? Hör av dig direkt till oss så återkommer vi snabbt.</p>
+      </div>
+      <div class="contact__grid">
+
+        <div class="contact-card">
+          <div class="contact-card__avatar">K</div>
+          <h3 class="contact-card__name">Kenny Svensson</h3>
+          <p class="contact-card__role">Kontaktperson</p>
+          <div class="contact-card__links">
+            <a href="tel:0709907093" class="contact-card__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 14a19.79 19.79 0 01-3.07-8.67A2 2 0 013.61 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 10.09a16 16 0 006 6l.95-.95a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17.4z"/></svg>
+              0709-907093
+            </a>
+            <a href="mailto:Kenny@kmsisolering.se" class="contact-card__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Kenny@kmsisolering.se
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card__avatar">D</div>
+          <h3 class="contact-card__name">David Mackintosch</h3>
+          <p class="contact-card__role">Kontaktperson</p>
+          <div class="contact-card__links">
+            <a href="tel:0733783551" class="contact-card__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 14a19.79 19.79 0 01-3.07-8.67A2 2 0 013.61 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 10.09a16 16 0 006 6l.95-.95a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 17.4z"/></svg>
+              0733-783551
+            </a>
+            <a href="mailto:Davy@kmsisolering.se" class="contact-card__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Davy@kmsisolering.se
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card contact-card--info">
+          <div class="contact-card__avatar contact-card__avatar--info">@</div>
+          <h3 class="contact-card__name">Allmänna förfrågningar</h3>
+          <p class="contact-card__role">Offert &amp; information</p>
+          <div class="contact-card__links">
+            <a href="mailto:Info@kmsisolering.se" class="contact-card__link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Info@kmsisolering.se
+            </a>
+          </div>
+          <div class="contact-card__certs">
+            <span class="cert-tag">F-skatt</span>
+            <span class="cert-tag">Ansvarsförsäkring</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="logo">
+          <img src="images/kms-logo.png" alt="KMS Plåt & Isolering" class="logo__img logo__img--footer" />
+        </a>
+        <p class="footer__tagline">Professionell isolering &amp; plåtarbeten i Helsingborg och Öresundsregionen.</p>
+        <p class="footer__org">Org.nr: 559509-0803</p>
+      </div>
+      <div class="footer__links">
+        <h4 class="footer__heading">Tjänster</h4>
+        <a href="#tjanster">Brand- &amp; Ljudtätning</a>
+        <a href="#tjanster">Ventilationsisolering</a>
+        <a href="#tjanster">Polyuretanisolering</a>
+        <a href="#tjanster">Rörisolering</a>
+        <a href="#tjanster">Plåtbeklädnad</a>
+        <a href="#tjanster">Industriservice</a>
+      </div>
+      <div class="footer__links">
+        <h4 class="footer__heading">Kontakt</h4>
+        <a href="tel:0709907093">Kenny: 0709-907093</a>
+        <a href="tel:0733783551">David: 0733-783551</a>
+        <a href="mailto:Info@kmsisolering.se">Info@kmsisolering.se</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 KMS Plåt &amp; Isolering AB – Org.nr 559509-0803</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Behold.so – lägg till ditt Widget-ID i div#DITT-WIDGET-ID ovan, avkommentera sedan raden nedan -->
+  <!-- <script async src="https://w.behold.so/widget.js"></script> -->
+</body>
+</html>
