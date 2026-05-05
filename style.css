@@ -955,6 +955,14 @@ ul { list-style: none; }
   font-size: 0.8rem;
   color: #475569;
 }
+.footer__credit {
+  margin-top: 6px;
+}
+.footer__credit a {
+  color: #64748b;
+  transition: var(--transition);
+}
+.footer__credit a:hover { color: var(--clr-accent-2); }
 
 /* ---------- ANIMATIONS ---------- */
 .fade-in {
