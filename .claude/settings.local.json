@@ -38,7 +38,8 @@
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Ny sektion: Kvalitet & Miljö med husbilden\"; git push)",
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Lägg till tre textkort under Miljösektionen\"; git push)",
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Lägg till favicon och apple-touch-icon\"; git push)",
-      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Byt hero-bilder mot nya\"; git push)"
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Byt hero-bilder mot nya\"; git push)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Uppdatera slogan till miljöbudskap\"; git push)"
     ]
   }
 }
