@@ -35,7 +35,8 @@
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Lägg till hemsida-kredit i footer\"; git push)",
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Bilder\\\\kms\" | Select-Object Name, @{N='KB';E={[int]\\($_.Length/1KB\\)}})",
       "PowerShell(Invoke-WebRequest -Uri \"https://www.kmsisolering.se/wp-content/uploads/2025/06/kms_bild_1.jpg\" -OutFile \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\\\\images\\\\kms-hus.jpg\")",
-      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Ny sektion: Kvalitet & Miljö med husbilden\"; git push)"
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Ny sektion: Kvalitet & Miljö med husbilden\"; git push)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Lägg till tre textkort under Miljösektionen\"; git push)"
     ]
   }
 }
