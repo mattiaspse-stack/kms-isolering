@@ -30,7 +30,8 @@
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; gh api repos/mattiaspse-stack/kms-isolering/pages --method POST -f source='{\"branch\":\"master\",\"path\":\"/\"}')",
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; gh api repos/mattiaspse-stack/kms-isolering/pages --method POST --field source[branch]=master --field source[path]=/)",
       "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Diverse justeringar – text, leverantörsloggor, år dynamiskt\"; git push)",
-      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Fix: logo storlek på mobil, Bevego centrerad\"; git push)"
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Fix: logo storlek på mobil, Bevego centrerad\"; git push)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\GitHub CLI\"; cd \"c:\\\\Users\\\\mattias.persson\\\\OneDrive - Atracco Group AB\\\\Visual Studio Code\\\\kms\"; git add .; git commit -m \"Ta bort F-skatt och Ansvarsförsäkring från kontaktkort\"; git push)"
     ]
   }
 }
